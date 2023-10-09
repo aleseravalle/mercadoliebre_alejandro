@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'roboto';
+    background-color: #ebebeb;
+}
+
+.create-form {
+    padding: 15px 10px;
+    width: 100%;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.create-form label {
+    display: block;
+    margin-bottom: 12px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#txfPassword {
+    margin-top: 12px;
+}
+
+.create-form .control-formulario input {
+    border-radius: 5px;
+    border: 0;
+}
+
+.control-formulario {
+    margin-bottom: 12px;
+}
+
+.control {
+    width: 100%;
+    padding: 6px 6px;
+}
+
+.boton-form {
+    background-color: #39b54a;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.radio {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 361px) {
+    .create-form {
+        padding: 15px 10px;
+        width: 50%;
+        max-width: 900px;
+        margin: auto;
+        margin-top: 12px;
+    }
+}
+
+@media (min-width: 769px) {
+    .create-form {
+        padding: 15px 10px;
+        width: 30%;
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 12px;
+    }
+
+    .radio {
+        display: flex;
+        width: 70%;
+    }
+}
